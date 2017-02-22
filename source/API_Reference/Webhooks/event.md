@@ -573,8 +573,8 @@ Bounce
   "reason":"500 No Such User",
   "type":"bounce",
   "ip" : "127.0.0.1",
-  "tls" : "1",
-  "cert_err" : "0"
+  "tls" : 1,
+  "cert_err" : 0
 }
 {% endcodeblock %}
 
@@ -674,8 +674,8 @@ Deferred
   },
   "asm_group_id": 1,
   "ip" : "127.0.0.1",
-  "tls" : "0",
-  "cert_err" : "0"
+  "tls" : 0,
+  "cert_err" : 0
 }
 {% endcodeblock %}
 
@@ -720,8 +720,8 @@ Delivered
   },
   "asm_group_id": 1,
   "ip" : "127.0.0.1",
-  "tls" : "1",
-  "cert_err" : "1"
+  "tls" : 1,
+  "cert_err" : 1
 }
 {% endcodeblock %}
 
